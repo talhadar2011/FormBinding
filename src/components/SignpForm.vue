@@ -1,13 +1,35 @@
 <template>
   <form>
     <label>Email:</label>
+<<<<<<< HEAD
     <input type="email" placeholder="Enter you E-Mail Address">
   </form>
+=======
+    <input type="email" v-model="email" placeholder="Enter you E-Mail Address">
+    
+    <label>Password:</label>
+    <input type="password" v-model="password" placeholder="Enter you Password">
+  </form>
+  <p>
+    Email:{{ email }}
+    Password:{{ password }}
+  </p>
+>>>>>>> DataBinding
 </template>
 
 <script>
 export default {
+<<<<<<< HEAD
 
+=======
+    data(){
+        return{
+            email:'',
+            password:''
+
+        }
+    }
+>>>>>>> DataBinding
 }
 </script>
 

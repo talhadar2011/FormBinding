@@ -1,5 +1,6 @@
 <template>
   <h1> Web Form</h1>
+<<<<<<< HEAD
   <SignpForm/>
 </template>
 
@@ -9,6 +10,18 @@ export default {
   name: 'App',
   components: {
     SignpForm
+=======
+  <SignUpForm/>
+</template>
+
+<script>
+import SignUpForm from './components/SignpForm.vue'
+
+export default {
+  name: 'App',
+  components: {
+    SignUpForm
+>>>>>>> DataBinding
   }
 }
 </script>
