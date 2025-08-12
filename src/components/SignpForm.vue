@@ -27,6 +27,9 @@
         <label>Accept Terms and Conditions</label>
 
     </div>
+    <div class="submit">
+            <button>Create Account</button>
+    </div>
 </form>
 
 </template>
@@ -107,7 +110,21 @@ export default {
         cursor: pointer;
         letter-spacing: 1px;
         font-weight: bold;
-        font-size: 12px;
-      
+        font-size: 12px; 
+    }
+    button{
+        background: #eee;
+        padding: 10px 20px;
+        border:none;
+        border-radius: 25px;
+        font-size: 16px;
+        font-weight: bold;
+        color:#555;
+        letter-spacing: 1px;
+        margin:20px
+    }
+    .submit{
+                text-align: center;
+
     }
 </style>
