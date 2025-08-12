@@ -1,22 +1,7 @@
 <template>
   <form>
-    <label>Email:</label>
-<<<<<<< HEAD
-<<<<<<< HEAD
-    <input type="email" placeholder="Enter you E-Mail Address">
-  </form>
-=======
-    <input type="email" v-model="email" placeholder="Enter you E-Mail Address">
-    
-    <label>Password:</label>
-    <input type="password" v-model="password" placeholder="Enter you Password">
-  </form>
-  <p>
-    Email:{{ email }}
-    Password:{{ password }}
-  </p>
->>>>>>> DataBinding
-=======
+   
+
     <input type="email" v-model="email" placeholder="Enter your E-Mail Address">
     
     <label>Password:</label>
@@ -48,14 +33,11 @@
     </div>
 </form>
 
->>>>>>> KeybordEvent
 </template>
 
 <script>
 export default {
-<<<<<<< HEAD
 
-=======
     data(){
         return{
             email:'',
@@ -83,7 +65,6 @@ export default {
         }
 
     }
->>>>>>> DataBinding
 }
 </script>
 
@@ -142,7 +123,8 @@ export default {
         font-weight: bold;
         color:#555;
         letter-spacing: 1px;
-        margin:20px
+        margin:20px;
+        cursor: pointer;
     }
     .submit{
                 text-align: center;
