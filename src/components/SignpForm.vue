@@ -3,7 +3,7 @@
     <label>Email:</label>
     <input type="email" v-model="email" placeholder="Enter you E-Mail Address">
     
-    <label>Email:</label>
+    <label>Password:</label>
     <input type="password" v-model="password" placeholder="Enter you Password">
   </form>
   <p>

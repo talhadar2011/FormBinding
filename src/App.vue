@@ -1,6 +1,5 @@
 <template>
-    <h1> Web Form</h1>
-
+  <h1> Web Form</h1>
   <SignUpForm/>
 </template>
 
