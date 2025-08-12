@@ -1,5 +1,5 @@
 <template>
-  <form>
+  <form @submit.prevent="submit">
    
 
     <input type="email" v-model="email" placeholder="Enter your E-Mail Address">
@@ -29,7 +29,7 @@
 
     </div>
     <div class="submit">
-            <button>Create Account</button>
+            <button type="submit">Create Account</button>
     </div>
 </form>
 
@@ -62,6 +62,9 @@ export default {
         },
         deleteSkill(skill){
             this.Skills=this.Skills.filter((item)=>item!==skill)
+        },
+        submit(){
+            console.log("Sub")
         }
 
     }
